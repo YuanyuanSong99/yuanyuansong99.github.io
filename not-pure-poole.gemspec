@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Yuanyuan song"]
   spec.email         = ["yysong18@mit.edu"]
 
-  spec.summary       = "Hey there! I'm a climate oceanographer."
+  spec.summary       = "Hey there! I'm a postdoc working at MIT with Gaël Forget in Mick Follows group."
   spec.homepage      = "https://github.com/vszhub/not-pure-jekyll"
   spec.license       = "MIT"
 
