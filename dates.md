@@ -1,5 +1,5 @@
 ---
 layout: archive-dates
-permalink: /Research/
+permalink: /dates/
 title: Research
 ---
