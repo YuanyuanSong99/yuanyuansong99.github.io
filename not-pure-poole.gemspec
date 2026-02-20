@@ -1,12 +1,12 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "not-pure-poole"
+  spec.name          = "Yuanyuan Song"
   spec.version       = "0.1.0"
-  spec.authors       = ["Mark Otto", "Songzi Vong"]
-  spec.email         = ["markdotto@gmail.com", "vszhub@gmail.com"]
+  spec.authors       = ["Yuanyuan song"]
+  spec.email         = ["yysong18@mit.edu"]
 
-  spec.summary       = "A simple, beautiful, and powerful Jekyll theme for blogs."
+  spec.summary       = "Hey there! I'm a climate oceanographer."
   spec.homepage      = "https://github.com/vszhub/not-pure-jekyll"
   spec.license       = "MIT"
 
