@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Testing MathJax
+title: Atmosphere-Ocean interaction
 tags: mathjax
 math: true
 date: 2020-10-02 15:32 +0800
