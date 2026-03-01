@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-Hey there! I'm a postdoc working at MIT.
+Hi. I'm currently a postdoc working on atmosphere and ocean dynamics. My interets lie broadly in atmosphere-ocean-sea ice interactions, which involve ocean warming, cold spells, heatwaves, extreme precipitation, atmosphere teleconnection linking tropics and polar regions, and so on. My research involves both internal variability and external forcing, spanning seasonal, interannual, and decadal variability, as well as long-term trend.
 
 
 ## Employment
