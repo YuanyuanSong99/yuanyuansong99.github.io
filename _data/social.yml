@@ -1,9 +1,9 @@
-- title: Email
-  url: mailto://vszhub@gmail.com
-  icon: fas fa-envelope
-- title: Twitter
-  url: https://twitter.com/vszhub
-  icon: fab fa-twitter
-- title: GitHub
-  url: https://github.com/vszhub/not-pure-poole
-  icon: fab fa-github
+- title: orcid
+  url: https://orcid.org/0000-0003-0810-0930
+  icon: orcid
+- title: google
+  url: https://scholar.google.com/citations?user=mmXr068AAAAJ&hl=zh-CN
+  icon: google
+- title: ResearchGate
+  url: https://www.researchgate.net/profile/Yuanyuan-Song-2
+  icon: graduation-cap
