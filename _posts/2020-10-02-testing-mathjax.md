@@ -3,7 +3,7 @@ layout: post
 title: Atmosphere-Ocean interaction
 tags: mathjax
 math: true
-date: 2020-10-02 15:32 +0800
+date: 2026-02-23 15:32 +0800
 ---
 As anthropogenic greenhouse gases increase heat retention in the Earth system, the ocean absorbs nearly 98% of the excess heat because of its large heat capacity. This stored heat manifests primarily as changes in ocean temperature. Understanding where and how ocean temperature changes occur is therefore central to assessing impacts on human activities and marine ecosystems. My research focuses on identifying the physical mechanisms that shape patterns of ocean temperature change under atmospheric forcing, and, in turn, examining how sea surface temperature anomalies feedback onto atmospheric circulation.
 
