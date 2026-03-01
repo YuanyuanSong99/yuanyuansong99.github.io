@@ -28,7 +28,7 @@ exclude:
   - not-pure-poole.gemspec
 
 # Optimize Jekyl SEO Tag
-twitter:
+orcid:
   username: vszhub
   card: summary
 logo: logo.png
