@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-Hi. I'm currently a postdoc working on atmosphere and ocean dynamics. My interets lie broadly in atmosphere-ocean-sea ice interactions, which involve ocean warming, cold spells, heatwaves, extreme precipitation, atmosphere teleconnection linking tropics and polar regions, and so on. My research involves both internal variability and external forcing, spanning seasonal, interannual, and decadal variability, as well as long-term trend.
+Hi, I'm currently a postdoc working on atmosphere-ocean dynamics. My research broadly explores how the ocean, atmosphere, and sea ice interact — connecting tropical variability, mid-latitude extremes, and polar change. I work across a wide range of timescales, including seasonal, interannual, and decadal variability, as well as long-term climate trends. I integrate coupled climate models, stand-alone ocean/atmosphere models, statistical diagnostics, observations and state estimates, with the goal of advancing a physically grounded understanding of the coupled Earth system.
 
 
 ## Employment
