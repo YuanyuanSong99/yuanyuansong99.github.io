@@ -7,7 +7,7 @@ tags: [jekyll theme, jekyll, tutorial]
 toc:  true
 ---
 
-My research integrates state-of-the-art large climate models, stand-alone ocean or atmosphere models, along with advanced big data techniques and multivariate statistics. At SBU, I will collaborate with colleagues in SoMAS to further advance interdisciplinary research on coupled atmosphere-ocean-sea ice interactions, including the impacts of different anthropogenic forcings on dynamic systems and the consequences of dynamical change for marine ecosystems.
+My research integrates state-of-the-art large climate models, stand-alone ocean or atmosphere models, along with advanced big data techniques and multivariate statistics.
 
 ### Images
 
