@@ -1,3 +1,350 @@
----
-layout: home
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yuanyuan Song — Climate Scientist</title>
+  <meta name="description" content="Yuanyuan Song, Postdoctoral Associate at MIT. Research on atmosphere-ocean-sea ice interactions and climate dynamics.">
+  <meta name="author" content="Yuanyuan Song">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">Yuanyuan Song</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#talks">Talks</a></li>
+        <li><a href="#outreach">Leadership</a></li>
+        <li><a href="#cv">CV</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Yuanyuan Song</h1>
+        <p class="hero-chinese">宋元元</p>
+        <p class="hero-title">Postdoctoral Associate</p>
+        <p class="hero-affiliation">Department of Earth, Atmospheric and Planetary Sciences<br>Massachusetts Institute of Technology</p>
+        <div class="hero-links">
+          <a href="mailto:yysong18@mit.edu" class="btn btn-primary">yysong18@mit.edu</a>
+          <a href="https://scholar.google.com/citations?user=mmXr068AAAAJ&hl=en" target="_blank" class="btn btn-outline">Google Scholar</a>
+        </div>
+        <div class="hero-icons">
+          <a href="https://scholar.google.com/citations?user=mmXr068AAAAJ&hl=en" target="_blank" aria-label="Google Scholar">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+          </a>
+          <a href="https://orcid.org/0000-0003-0810-0930" target="_blank" aria-label="ORCID">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 01-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 4.022-2.484 4.022-3.722 0-1.847-1.238-3.722-3.806-3.722h-2.513z"/></svg>
+          </a>
+          <a href="https://www.researchgate.net/profile/Yuanyuan-Song-2" target="_blank" aria-label="ResearchGate">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M19.586 0c-1.28 0-2.476.53-3.378 1.43L12 5.64 7.793 1.43A4.76 4.76 0 004.414 0C1.978 0 0 1.978 0 4.414v15.172C0 22.022 1.978 24 4.414 24h15.172C22.022 24 24 22.022 24 19.586V4.414C24 1.978 22.022 0 19.586 0zM8.67 17.914c-1.675 0-2.95-.382-3.807-1.014a.39.39 0 01-.063-.546l.636-.847a.39.39 0 01.543-.082c.637.44 1.46.72 2.544.72 1.29 0 2.16-.678 2.16-1.68 0-.99-.714-1.512-2.04-1.96l-.99-.34c-1.77-.61-2.73-1.56-2.73-3.21 0-1.86 1.53-3.15 3.72-3.15 1.395 0 2.46.39 3.18.87a.39.39 0 01.084.55l-.57.82a.39.39 0 01-.538.1c-.63-.39-1.35-.6-2.19-.6-1.17 0-1.92.6-1.92 1.47 0 .84.57 1.32 1.83 1.74l1.02.36c1.98.69 2.91 1.65 2.91 3.39 0 1.98-1.59 3.39-3.78 3.39zm10.41-1.2a.39.39 0 01-.39.39h-1.17a.39.39 0 01-.39-.39v-3.69h-3.15v3.69a.39.39 0 01-.39.39h-1.17a.39.39 0 01-.39-.39V7.2a.39.39 0 01.39-.39h1.17a.39.39 0 01.39.39v4.38h3.15V7.2a.39.39 0 01.39-.39h1.17a.39.39 0 01.39.39v9.51z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="profile-opt.jpg" alt="Yuanyuan Song" loading="eager">
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">About</h2>
+      <div class="about-content">
+        <p>My research broadly explores how the ocean, atmosphere, and sea ice interact &mdash; connecting tropical variability, mid-latitude extremes, and polar change. I work across a wide range of timescales, including seasonal, interannual, and decadal variability, as well as long-term climate trends.</p>
+        <p>I integrate coupled climate models, stand-alone ocean/atmosphere models, statistical diagnostics, observations and state estimates, with the goal of advancing a physically grounded understanding of the coupled Earth system.</p>
+        <div class="about-keywords">
+          <span class="keyword">Atmosphere-Ocean Interaction</span>
+          <span class="keyword">Southern Ocean Warming</span>
+          <span class="keyword">Sea Ice &amp; Climate</span>
+          <span class="keyword">Mode Water</span>
+          <span class="keyword">Atmospheric Blocking</span>
+          <span class="keyword">Marine Heatwaves</span>
+          <span class="keyword">Climate Dynamics</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research Section -->
+  <section class="section section-alt" id="research">
+    <div class="container">
+      <h2 class="section-title">Research</h2>
+
+      <div class="research-card">
+        <div class="research-card-header">
+          <span class="research-number">01</span>
+          <h3>Atmosphere-Ocean Interaction</h3>
+        </div>
+        <p>As anthropogenic greenhouse gases increase heat retention in the Earth system, the ocean absorbs nearly 98% of the excess heat. Understanding where and how ocean temperature changes occur is central to assessing impacts on human activities and marine ecosystems. My research focuses on identifying the physical mechanisms that shape patterns of ocean temperature change under atmospheric forcing, and how sea surface temperature anomalies feed back onto atmospheric circulation.</p>
+        <p>I investigated zonal differences in upper-ocean temperature changes in the Southern Ocean (south of 35&deg;S) from the perspectives of both anthropogenic trends (<a href="https://doi.org/10.1038/s41467-025-64112-8">Song et al., 2025, <em>Nature Communications</em></a>) and decadal internal variability (<a href="https://doi.org/10.1175/JCLI-D-23-0649.1">Song et al., 2024, <em>Journal of Climate</em></a>). These studies reveal pronounced zonal contrasts between the Atlantic&ndash;Indian Ocean and Pacific sectors, previously overlooked due to prevalent use of zonal-mean diagnostics. Using large ensemble climate models (CESM2, CMIP6), stand-alone ocean modeling, and reanalysis datasets, I demonstrated that surface wind changes dominantly drive zonal temperature contrasts via modulating ocean heat transport, rather than through local surface heat fluxes.</p>
+      </div>
+
+      <div class="research-card">
+        <div class="research-card-header">
+          <span class="research-number">02</span>
+          <h3>Atmosphere-Sea Ice Interaction</h3>
+        </div>
+        <p>Polar regions are among the most sensitive components of the climate system. Arctic surface temperatures have risen at nearly four times the global mean rate, accompanied by rapid sea-ice decline, while mid-latitude regions experience increasingly frequent and intense extreme weather events. My research seeks to clarify the dynamical connections between Arctic sea-ice decline and mid-latitude and tropical atmospheric circulation.</p>
+        <p>I found that autumn sea-ice loss north of Russia enhances wintertime atmospheric blocking circulation, leading to cold anomalies over northern Eurasia (<a href="https://doi.org/10.1016/j.atmosres.2023.107038">Song et al., 2023</a>). The results reveal a positive feedback between sea-ice-induced stratospheric circulation and intensified tropospheric blocking, mediated by vertical wave propagation. I also examined the combined roles of Arctic sea-ice loss and Indian Ocean SST anomalies in driving the record-breaking 2020 rainfall over central&ndash;eastern China and Japan (<a href="https://doi.org/10.1029/2021GL092748">Chen et al., 2021</a>; <a href="https://doi.org/10.1007/s00382-022-06279-0">Chen et al., 2022</a>).</p>
+      </div>
+
+      <div class="research-card">
+        <div class="research-card-header">
+          <span class="research-number">03</span>
+          <h3>Emerging Directions</h3>
+        </div>
+        <p>My ongoing and future research integrates state-of-the-art coupled climate models, stand-alone ocean and atmosphere models, Lagrangian ocean analysis, and advanced multivariate statistics. Current projects include understanding temperature changes in mode water source regions and investigating the coupled air-sea interactions that drove and sustained the 2013&ndash;2016 North Pacific marine heatwaves.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Publications Section -->
+  <section class="section" id="publications">
+    <div class="container">
+      <h2 class="section-title">Publications</h2>
+
+      <h3 class="subsection-title">Journal Articles</h3>
+      <ol class="pub-list" reversed>
+        <li class="pub-item pub-inprep">
+          <span class="pub-authors"><strong>Yuanyuan Song</strong> and Ga&euml;l Forget.</span>
+          <span class="pub-title">Temperature Change in Mode Water Source Regions.</span>
+          <span class="pub-venue"><em>In preparation</em></span>
+        </li>
+        <li class="pub-item pub-inprep">
+          <span class="pub-authors">Wenrui Jiang, Ga&euml;l Forget, <strong>Yuanyuan Song</strong>, Thomas Haine.</span>
+          <span class="pub-title">Coupled air-sea interaction drove and sustained the 2013&ndash;2016 North Pacific Marine Heatwave.</span>
+          <span class="pub-venue"><em>In preparation</em></span>
+        </li>
+        <li class="pub-item">
+          <span class="pub-authors"><strong>Yuanyuan Song</strong>, Yuanlong Li, Ga&euml;l Forget, Aixue Hu, Qian Li, Jia-Rui Shi, Xiaodan Chen, Kai Ge, Fan Wang.</span>
+          <span class="pub-title">Inter-basin contrast in the Southern Ocean warming.</span>
+          <span class="pub-venue"><em>Nature Communications</em>, 16(1), 9063, 2025.</span>
+          <a href="https://doi.org/10.1038/s41467-025-64112-8" class="pub-link" target="_blank">DOI</a>
+        </li>
+        <li class="pub-item">
+          <span class="pub-authors"><strong>Yuanyuan Song</strong>, Yuanlong Li, Aixue Hu, Lijing Cheng, Ga&euml;l Forget, Xiaodan Chen, Jing Duan, Fan Wang.</span>
+          <span class="pub-title">Decadal Thermal Variability of the Upper Southern Ocean: Zonal Asymmetry.</span>
+          <span class="pub-venue"><em>Journal of Climate</em>, 37(11), 3117&ndash;3132, 2024.</span>
+          <a href="https://doi.org/10.1175/JCLI-D-23-0649.1" class="pub-link" target="_blank">DOI</a>
+        </li>
+        <li class="pub-item">
+          <span class="pub-authors"><strong>Yuanyuan Song</strong>, Yao Yao, Dehai Luo, Yuanlong Li.</span>
+          <span class="pub-title">Loss of autumn Kara-East Siberian Sea ice intensifies winter Ural blocking and cold anomalies in high latitudes of Eurasia.</span>
+          <span class="pub-venue"><em>Atmospheric Research</em>, 295, 107038, 2023.</span>
+          <a href="https://doi.org/10.1016/j.atmosres.2023.107038" class="pub-link" target="_blank">DOI</a>
+        </li>
+        <li class="pub-item">
+          <span class="pub-authors"><strong>Yuanyuan Song</strong>, Dehai Luo, Fei Zheng, Yao Yao.</span>
+          <span class="pub-title">Impact of Ural blocking on sub-seasonal Siberian cold anomalies modulated by the winter East Asian trough.</span>
+          <span class="pub-venue"><em>Climate Dynamics</em>, 58(3), 1257&ndash;1273, 2022.</span>
+          <a href="https://doi.org/10.1007/s00382-021-05959-7" class="pub-link" target="_blank">DOI</a>
+        </li>
+        <li class="pub-item">
+          <span class="pub-authors">Xiaodan Chen, Zhiping Wen, <strong>Yuanyuan Song</strong>, Yuanyuan Guo.</span>
+          <span class="pub-title">Causes of extreme 2020 Meiyu-Baiu rainfall: a study of combined effect of Indian Ocean and Arctic.</span>
+          <span class="pub-venue"><em>Climate Dynamics</em>, 59(11), 3485&ndash;3501, 2022.</span>
+          <a href="https://doi.org/10.1007/s00382-022-06279-0" class="pub-link" target="_blank">DOI</a>
+        </li>
+        <li class="pub-item">
+          <span class="pub-authors">Xiaodan Chen, Aiguo Dai, Zhiping Wen, <strong>Yuanyuan Song</strong>.</span>
+          <span class="pub-title">Contributions of Arctic Sea-Ice Loss and East Siberian Atmospheric Blocking to 2020 Record-Breaking Meiyu-Baiu Rainfall.</span>
+          <span class="pub-venue"><em>Geophysical Research Letters</em>, 48(10), e2021GL092748, 2021.</span>
+          <a href="https://doi.org/10.1029/2021GL092748" class="pub-link" target="_blank">DOI</a>
+        </li>
+      </ol>
+
+      <h3 class="subsection-title">Talks &amp; Conferences</h3>
+      <div id="talks">
+        <ol class="talks-list" reversed>
+          <li class="talk-item">
+            <span class="talk-venue">2026 Ocean Sciences Meeting</span>
+            <span class="talk-type">Presentation</span>
+          </li>
+          <li class="talk-item">
+            <span class="talk-venue">AGU Fall Meeting, Washington DC, December 2024</span>
+            <span class="talk-type"><a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1675062" target="_blank">Oral</a> &amp; <a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1678292" target="_blank">Poster</a></span>
+          </li>
+          <li class="talk-item">
+            <span class="talk-venue"><a href="https://ecco-group.org/hackweek2024.htm" target="_blank">ECCO Hackweek at Caltech</a>, October 2024</span>
+            <span class="talk-type">Training</span>
+          </li>
+          <li class="talk-item">
+            <span class="talk-venue"><a href="https://eaps.mit.edu/events/esac-student-seminar-yuanyuan-song/" target="_blank">ESAC Student Seminar at MIT</a>, September 2024</span>
+            <span class="talk-type">Talk</span>
+          </li>
+          <li class="talk-item">
+            <span class="talk-venue"><a href="https://eaps.mit.edu/events/eats-yuanyuan-song/" target="_blank">EAPS Atrium Talk Series at MIT</a>, July 2024</span>
+            <span class="talk-type">Talk</span>
+          </li>
+          <li class="talk-item">
+            <span class="talk-venue">Polar Sea Ice and Climate Change Seminar, Qingdao, June 2024</span>
+            <span class="talk-type">Invited Talk</span>
+          </li>
+          <li class="talk-item">
+            <span class="talk-venue">Ocean Science Meeting, New Orleans, February 2024</span>
+            <span class="talk-type">Poster</span>
+          </li>
+          <li class="talk-item">
+            <span class="talk-venue">NCAR CGD, Boulder, January 2024</span>
+            <span class="talk-type">Talk</span>
+          </li>
+          <li class="talk-item">
+            <span class="talk-venue">AGU Fall Meeting, San Francisco, December 2023</span>
+            <span class="talk-type">Poster</span>
+          </li>
+          <li class="talk-item">
+            <span class="talk-venue">Polar Climate Change Under Global Warming Seminar, Qingdao, November 2023</span>
+            <span class="talk-type">Invited Talk</span>
+          </li>
+          <li class="talk-item">
+            <span class="talk-venue">The 7th Conference on Nonlinear Atmosphere-Ocean Sciences, Chongqing, October 2023</span>
+            <span class="talk-type">Poster</span>
+          </li>
+          <li class="talk-item">
+            <span class="talk-venue">Asia Oceania Geosciences Society (AOGS), Singapore, August 2023</span>
+            <span class="talk-type">Poster</span>
+          </li>
+          <li class="talk-item">
+            <span class="talk-venue">The 7th Conference of Earth System Science, Shanghai, July 2023</span>
+            <span class="talk-type">Poster</span>
+          </li>
+          <li class="talk-item">
+            <span class="talk-venue">The 5th Conference of China Geodesy and Geophysics, Wuhan, April 2023</span>
+            <span class="talk-type">Oral</span>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- Outreach Section -->
+  <section class="section section-alt" id="outreach">
+    <div class="container">
+      <h2 class="section-title">Leadership &amp; Outreach</h2>
+      <div class="outreach-grid">
+        <div class="outreach-card">
+          <div class="outreach-icon">
+            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          </div>
+          <h3>Research Journeys in Earth Sciences</h3>
+          <p class="outreach-role">Leader</p>
+          <p>Award: $1,500 for 2025&ndash;2026 from MIT School of Science Quality of Life Grant</p>
+        </div>
+        <div class="outreach-card">
+          <div class="outreach-icon">
+            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <h3><a href="https://cis.mit.edu/current-working-groups" target="_blank">China Group on Climate Change and Sustainability</a></h3>
+          <p class="outreach-role">Leader &middot; 54 members</p>
+          <p>Award: $2,000 for 2024&ndash;2025 and $2,000 for 2025&ndash;2026 from MIT Center for International Studies. Initiates and hosts lunch seminars to foster multidisciplinary collaboration related to climate change at MIT.</p>
+        </div>
+        <div class="outreach-card">
+          <div class="outreach-icon">
+            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Climate Dynamics Group</h3>
+          <p class="outreach-role">Co-leader &middot; 483 members</p>
+          <p>Hosts online seminars to foster multidisciplinary communication in the US.</p>
+        </div>
+        <div class="outreach-card">
+          <div class="outreach-icon">
+            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>MIT EAPS Department</h3>
+          <p class="outreach-role">Postdoc Representative</p>
+          <p>Represents postdoctoral researchers in the Department of Earth, Atmospheric and Planetary Sciences.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CV Section -->
+  <section class="section" id="cv">
+    <div class="container">
+      <h2 class="section-title">CV</h2>
+      <div class="cv-grid">
+        <div class="cv-block">
+          <h3 class="cv-block-title">Employment</h3>
+          <div class="cv-entry">
+            <div class="cv-date">Apr 2024 &ndash; Present</div>
+            <div class="cv-details">
+              <div class="cv-position">Postdoctoral Associate</div>
+              <div class="cv-institution">Massachusetts Institute of Technology, Cambridge, USA</div>
+              <div class="cv-advisor">Advisor: Ga&euml;l Forget</div>
+            </div>
+          </div>
+          <div class="cv-entry">
+            <div class="cv-date">Dec 2023 &ndash; Feb 2024</div>
+            <div class="cv-details">
+              <div class="cv-position">Visiting Postdoc</div>
+              <div class="cv-institution">National Center for Atmospheric Research, Boulder, USA</div>
+              <div class="cv-advisor">Host: Aixue Hu</div>
+            </div>
+          </div>
+          <div class="cv-entry">
+            <div class="cv-date">Jun 2022 &ndash; Mar 2024</div>
+            <div class="cv-details">
+              <div class="cv-position">Postdoctoral Associate</div>
+              <div class="cv-institution">Institute of Oceanology, Chinese Academy of Sciences, Qingdao, China</div>
+              <div class="cv-advisor">Advisor: Yuanlong Li</div>
+            </div>
+          </div>
+        </div>
+        <div class="cv-block">
+          <h3 class="cv-block-title">Education</h3>
+          <div class="cv-entry">
+            <div class="cv-date">Aug 2017 &ndash; Jun 2022</div>
+            <div class="cv-details">
+              <div class="cv-position">Ph.D. in Meteorology</div>
+              <div class="cv-institution">University of Chinese Academy of Sciences, Beijing, China</div>
+              <div class="cv-advisor">Supervisors: Dehai Luo and Yao Yao</div>
+            </div>
+          </div>
+          <div class="cv-entry">
+            <div class="cv-date">Aug 2013 &ndash; Jun 2017</div>
+            <div class="cv-details">
+              <div class="cv-position">B.S. in Atmospheric Science</div>
+              <div class="cv-institution">Ocean University of China, Qingdao, China</div>
+              <div class="cv-advisor">Supervisor: Jilin Sun</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; 2026 Yuanyuan Song. MIT EAPS.</p>
+        <div class="footer-links">
+          <a href="mailto:yysong18@mit.edu">Email</a>
+          <a href="https://scholar.google.com/citations?user=mmXr068AAAAJ&hl=en" target="_blank">Google Scholar</a>
+          <a href="https://github.com/YuanyuanSong99" target="_blank">GitHub</a>
+          <a href="https://orcid.org/0000-0003-0810-0930" target="_blank">ORCID</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
