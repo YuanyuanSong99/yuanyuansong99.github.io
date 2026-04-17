@@ -111,6 +111,13 @@ img {
   margin-top: 0;
 }
 
+#research .subsection-title + p {
+  color: var(--color-text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.75;
+  margin-bottom: 24px;
+}
+
 /* ===== Navigation ===== */
 .nav {
   position: fixed;
