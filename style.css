@@ -402,7 +402,7 @@ img {
 /* ===== Publications ===== */
 .pub-list {
   list-style: none;
-  counter-reset: pub-counter 9;
+  counter-reset: pub-counter 10;
 }
 
 .pub-item {
